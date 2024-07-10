@@ -1,0 +1,121 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu img {
+    width: 40px;
+}
+ul, a, li, ol {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+/* navbar css */
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu li {
+    padding-left: 20px;
+}
+/* banner css */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+/* search css */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+    width: 620px;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+/* .nav-search:hover {
+    border: 2px solid orange;
+    border-radius: 40px;
+} */
+/* .search-select {
+    background-color: #f3f3f3; 
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+} */
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    /* background-color: rgb(255, 170, 0); */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+/* website space */
+.website {
+    width: 730px;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+}
+.icon-img img {
+    width: 45px;
+    padding-left: 5px;
+}
+
+.website-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(244, 244, 244);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 65px;
+}
+.icon-img i{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 1rem;
+    transform: translateY(15px);
+    -webkit-transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -o-transform: translateY(15px);
+}
+
